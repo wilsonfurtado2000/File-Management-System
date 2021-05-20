@@ -1,0 +1,26 @@
+.file_i {
+  height: 55px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  border-top: 1px solid rgb(219, 219, 219);
+  width: 100%;
+}
+
+.file_i > a {
+  height: 100%;
+  display: flex;
+  text-decoration: none;
+  color: rgb(85, 78, 78);
+}
+
+.file_i > a > div {
+  display: flex;
+  align-items: center;
+}
+
+.file_i > a > div > * {
+  margin: 10px;
+}
+
+.fileItem--left {
+  flex: 1;
+}

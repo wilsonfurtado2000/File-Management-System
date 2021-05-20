@@ -1,0 +1,27 @@
+.filesview {
+  width: 100%;
+}
+
+.files_row {
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.file_title {
+  display: flex;
+  margin-bottom: 5px;
+  color: rgb(85, 78, 78);
+}
+
+.files_title > div > * {
+  margin: 5px;
+}
+
+.file_left {
+  flex: 1;
+}
+
+.file_right {
+  display: flex;
+}

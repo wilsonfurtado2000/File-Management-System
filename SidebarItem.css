@@ -1,0 +1,18 @@
+.side_item {
+  display: flex;
+  padding: 10px 0;
+  border-radius: 0 100px 100px 0;
+}
+.side_item:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.side_arrow {
+  width: 28px;
+  margin-left: 12px;
+}
+.side_main {
+  display: flex;
+}
+.side_main > p {
+  margin-left: 12px;
+}
